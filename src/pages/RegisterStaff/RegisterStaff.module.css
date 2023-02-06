@@ -1,0 +1,63 @@
+.formBox {
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+    width: 100%;
+}
+.heading {
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+	width: 100%;
+	color: #555;
+	margin-bottom: 20px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+}
+
+.inputLabel {
+    font-size: 1.1rem;
+    color: #555;
+    font-weight: 600;
+    padding: 20px 10px;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 0px;
+    outline: none;
+    border: none;
+    margin: 10px;
+    font-size: 1.1rem;
+    border-bottom: 1px #525252 solid;
+}
+
+.registerBtn{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.8rem 1.8rem;
+    background-image: linear-gradient(#538cff, #2a71ff);
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.registerBtn:hover{
+    background-image: linear-gradient(#538cff, #1c68ff);
+    transform: scale(1.02);
+}
+

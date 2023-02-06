@@ -1,0 +1,179 @@
+.verifyPageContainer{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.beforeVerifyContainer{
+	width: 80%;
+	min-height: 80vh;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.verifyDetails{
+	margin-bottom: 0.5rem;
+}
+
+.detailsContent{
+	color: #1363FD;
+}
+
+.checkDocBtn{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.8rem 1.8rem;
+    background-image: linear-gradient(#538cff, #2a71ff);
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.checkDocBtn:hover{
+    background-image: linear-gradient(#538cff, #1c68ff);
+    transform: scale(1.02);
+}
+
+.docViewContainer{
+	/* min-height: 80vh; */
+	width: 80%;
+	padding: 1rem 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.docContainer{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: rgba(0, 0, 0, 0.158) 1px 1px 10px;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+}
+
+.uploadContainer{
+	margin-top: 2rem;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.pdfPage{
+	width: 100%;
+	overflow: hidden;
+}
+
+.documentContainer{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.pageControllerContainer{
+	margin-top: 0.5rem;
+	display: flex;
+	flex-direction: row;
+}
+
+.leftPageBtn, .rightPageBtn{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.5rem 0.8rem;
+    background-image: linear-gradient(#538cff, #2a71ff);
+    border: none;
+    outline: none;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.pageInfoContainer{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.8rem;
+    background-image: linear-gradient(#538cff, #2a71ff);
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.leftPageBtn{
+	border-radius: 0.4rem 0 0 0.4rem;
+}
+
+.rightPageBtn{
+	border-radius: 0 0.4rem 0.4rem 0;
+}
+
+.bulkUploadSection{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.compareBtn{
+	margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.7rem 1.2rem;
+	border-radius: 0.4rem;
+    background-image: linear-gradient(#538cff, #2a71ff);
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.verifiedStatus{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	color: #27ae60;
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+
+
+.tickIcon{
+	margin-right: 0.3rem;
+}
+
+.errorMessage{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: #e74c3c;
+}
+
+@media only screen and (max-width: 850px) {
+
+	.docViewContainer{
+		flex-direction: column;
+	}
+}

@@ -1,0 +1,140 @@
+.marksheetUploadPageContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.marksheetUploadPageBodyContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+.issueMarksheetHeader{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: rgb(48, 48, 48);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+.singleUploadSection{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.singleUploadForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputLabel{
+    margin-bottom: 0.2rem;
+}
+
+.regNumInput{
+    padding: 0.8rem 0.6rem;
+    background-color: #EEEEEE;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.fileUploadContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.chooseFileBtn{
+    padding: 0.8rem 0.6rem;
+    border-radius: 0.5rem;
+    background-color: #dfdfdf;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(45, 45, 45);
+    font-weight: bold;
+}
+
+.chooseFileInput{
+    display: none;
+}
+
+.issueBtn{
+    padding: 0.8rem 0.6rem;
+    border-radius: 0.5rem;
+    background-color: #1363FD;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.bulkUploadDropZone{
+    background-color: red;
+}
+
+.canvasContainer{
+    width: 100%;
+    display: none;
+}
+
+.templateImage{
+    visibility: hidden;
+}
+
+.issueDocBtn{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.8rem 1.8rem;
+    background-image: linear-gradient(#538cff, #2a71ff);
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.issueDocBtn:hover{
+    background-image: linear-gradient(#538cff, #1c68ff);
+    transform: scale(1.02);
+}
+
+.tickIcon{
+    margin-right: 0.5rem;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .issueMarksheetContainer{
+        flex-direction: column;
+    }
+
+    .singleUploadSection{
+        width: 80%;
+    }
+    .singleUploadForm{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .marksheetUploadPageBodyContainer{
+        width: 90%;
+    }
+}
