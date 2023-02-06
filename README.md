@@ -5,7 +5,6 @@ Biconomy has been used to implement Gasless transactions and IPFS to store the d
 
 ## 👩‍💻 Team members
 
-- **Sarah Tisekar**
 - **Ravi Maurya**
 - **Nikheel Indanoor**
 - **Ankit Jaiswal**
