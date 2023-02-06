@@ -11,7 +11,8 @@ Biconomy has been used to implement Gasless transactions and IPFS to store the d
 - **Atharva Patil**
 - **Tanish Sawant**
 
-![image](https://user-images.githubusercontent.com/59064326/212481499-f79ddb95-ea0c-49db-bcd5-633096e80c9e.png)
+![Home_Page](https://user-images.githubusercontent.com/59118806/217004632-56b047d4-64b3-4196-ade6-c37c9890a3eb.png)
+
 
 ## Problems with the current system
 
